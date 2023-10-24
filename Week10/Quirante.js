@@ -17,7 +17,7 @@ function JQueryToggle(){
         });
     });
 }
-
+ 
 function JQueryFadeIn(){
     $(document).ready(function(){
         $("#FadeInButton").click(function(){
@@ -37,8 +37,8 @@ function JQueryFadeOut(){
         });
     });
 }
-JQueryFadeIn();
-JQueryFadeOut();
+// JQueryFadeIn();
+// JQueryFadeOut();
 function JQueryFadeToggle(){
     $(document).ready(function(){
         $("button").click(function(){
@@ -59,6 +59,7 @@ function JQuerySlideDown(){
         })
     })
 }
+JQuerySlideDown();
 //JQuerySlideDown();
 function JQueryAnimate(){
     $(document).ready(function(){
@@ -96,3 +97,5 @@ function JQueryReset(){
     })
 
 }
+JQueryExerciseAnimate();
+JQueryReset();
